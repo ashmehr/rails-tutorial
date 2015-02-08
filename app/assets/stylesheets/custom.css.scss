@@ -3,6 +3,7 @@
 
 /* universal */
 
+
 html {
 	overflow-y: scroll;
 }
@@ -46,7 +47,7 @@ h2{
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;
-	color: #777;
+	color: $gray-light;
 }
 
 p {
@@ -78,7 +79,7 @@ footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
-	color: #777;
+	color: $gray-light;
 }
 
 footer a {
@@ -101,4 +102,16 @@ footer ul {
 footer ul li {
 	float: left;
 	margin-left: 15px;
+}
+
+/*contact*/
+
+#contacts {
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			margin: 1em;
+		}
+	}
 }
